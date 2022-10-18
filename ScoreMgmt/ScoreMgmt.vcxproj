@@ -133,7 +133,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ScoreMgmt.cpp" />
+    <ClCompile Include="Template.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ScoreMgmt.rc" />
