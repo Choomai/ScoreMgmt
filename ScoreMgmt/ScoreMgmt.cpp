@@ -1,10 +1,8 @@
-// ScoreMgmt.cpp : Defines the entry point for the application.
-//
-
 #include "framework.h"
 #include "ScoreMgmt.h"
+#include <iostream>
 
-#define MAX_LOADSTRING 100
+#define MAX_LOADSTRING 255
 
 // Global Variables:
 HINSTANCE hInst;                                // current instance
@@ -26,7 +24,6 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     UNREFERENCED_PARAMETER(lpCmdLine);
 
     // TODO: Place code here.
-
     // Initialize global strings
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_SCOREMGMT, szWindowClass, MAX_LOADSTRING);
@@ -176,5 +173,6 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
         }
         break;
     }
+    std::cout << "This is a text. Nothing special";
     return (INT_PTR)FALSE;
 }
