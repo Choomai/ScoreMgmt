@@ -133,14 +133,10 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Template.cpp" />
+    <ClCompile Include="ScoreMgmt.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ScoreMgmt.rc" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="ScoreMgmt.ico" />
-    <Image Include="small.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
