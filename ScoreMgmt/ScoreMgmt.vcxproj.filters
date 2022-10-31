@@ -29,9 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Template.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="ScoreMgmt.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -42,10 +39,10 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <Image Include="small.ico">
+    <Image Include="ScoreMgmt.ico">
       <Filter>Resource Files</Filter>
     </Image>
-    <Image Include="ScoreMgmt.ico">
+    <Image Include="small.ico">
       <Filter>Resource Files</Filter>
     </Image>
   </ItemGroup>
